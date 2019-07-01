@@ -1,0 +1,500 @@
+/* index内容 */
+.banner_box{
+    width: 7.5rem;
+    height: 2.5rem;
+    position: relative;
+}
+.banner_box .hd{
+    width: 100%;
+    position: absolute;
+    bottom: 0.1rem;
+    z-index: 1;
+}
+.banner_box .hd ul{
+    text-align: right;
+    margin-right: 0.2rem;
+}
+.banner_box .hd ul li{
+    width: 0.12rem;
+    height: 0.12rem;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+    background: #ccc;
+    display: inline-block;
+}
+.banner_box .hd ul li.on{
+    background: #fff;
+}
+.main_list{
+    width: 2.4rem;
+    min-height: 15rem;
+    position: absolute;
+    left: 7.5rem;
+    top:0;
+    display: none;
+}
+.main_list ul li{
+    width: 2.4rem;
+    height: 0.95rem;
+    border-bottom: 1px solid #ddd;
+}
+.main_list ul li a{
+    width: 2.4rem;
+    height: 0.95rem;
+    font-size: 0.32rem;
+    line-height: 0.95rem;
+    color: #000;
+    margin-left: 0.2rem;
+}
+.main_list ul li a img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.18rem;
+}
+
+.main_con_tit{
+    width: 100%;
+    height: 0.66rem;
+    margin-top: 0.14rem;
+    border-bottom: 1px solid #ddd;
+    /*background: url(../images/line.jpg) 0 center no-repeat;*/
+    background-size: 0.06rem 0.37rem;
+}
+.main_con_tit img{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.04rem;
+    float: left;
+}
+.main_con_tit h3{
+    width: 4rem;
+    height: 0.66rem;
+    float: left;
+    font-size: 0.3rem;
+    margin-left: 0.04rem;
+    line-height: 0.66rem;
+}
+.main_con_tit a{
+    width: 0.6rem;
+    height: 0.66rem;
+    float: right;
+    line-height: 0.66rem;
+    font-size: 0.26rem;
+    color: #888;
+}
+
+.fangan_list{
+    margin-top: 0.3rem;
+}
+.fangan_list li{
+    width: 2.2rem;
+    height: 1.02rem;
+    background: #f3f3f3;
+    float: left;
+    margin-right: 0.25rem;
+    margin-bottom: 0.3rem;
+
+}
+.fangan_list li a{
+    width: 100%;
+    height: 100%;
+}
+.fangan_list li:nth-child(3n){
+    float: right;
+    margin-right: 0;
+}
+.fangan_list li img{
+    display: block;
+    width: 0.49rem;
+    height: 0.49rem;
+    margin-left: 0.3rem;
+    float: left;
+    margin-top: 0.26rem;
+}
+.fangan_list li h6{
+    width: 1.2rem;
+    height: 0.49rem;
+    text-align: center;
+    line-height: 0.49rem;
+    font-size: 0.28rem;
+    float: left;
+    margin-top: 0.26rem;
+}
+
+.anli_list{
+    height: 3rem;
+    padding-top: 0.3rem;
+    padding: 0.3rem 0.08rem 0 0.08rem;
+}
+.anli_list li{
+    width: 3.44rem;
+    height: 2.88rem;
+    float: left;
+}
+.anli_list li a{
+    width: 100%;
+    height: 100%;
+}
+.anli_list li:nth-child(2n){
+    float: right;
+}
+.anli_list li img{
+    width: 3.44rem;
+    height: 1.94rem;
+    border-radius:0.1rem;
+}
+.anli_list li p{
+    height: 0.4rem;
+    line-height: 0.46rem;
+    font-size: 0.26rem;
+}
+.info_clearfix{
+    height: 0.3rem;
+    color: #999;
+    font-size: 0.18rem;
+}
+.info_clearfix .nick{
+    float: left;
+}
+.info_clearfix .viewer_wrap{
+    float: right;
+}
+.info_clearfix .viewer_wrap img{
+    width: 0.26rem;
+    height: 0.26rem;
+}
+
+.index_about{
+    width: 100%;
+    height: auto;
+    margin-top: 0.3rem;
+    background: #f3f3f3;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.index_about p{
+    width: 6.55rem;
+    margin:0 auto;
+    font-size: 0.26rem;
+}
+
+.index_news{
+    width:100%;
+    height: auto;
+    margin-top: 0.3rem;
+}
+.index_news > div{
+    width: 100%;
+    height: 1.7rem;
+
+}
+.index_news > div > a{
+    width: 100%;
+    height: 100%;
+}
+.index_news > div > a > img{
+    width: 2.1rem;
+    height: 1.41rem;
+    display: block;
+    float: left;
+}
+.index_news > div > a > h6{
+    width: 4.69rem;
+    height: 0.7rem;
+    font-size: 0.26rem;
+    float: right;
+}
+.index_news > div > a > p{
+    width: 4.69rem;
+    height: auto;
+    font-size: 0.24rem;
+    float: right;
+    color: #888;
+}
+.index_news > ul{
+    width: 100%;
+    height: auto;
+}
+.index_news > ul > li{
+    height: 0.86rem;
+    border-top:1px dashed #ddd;
+}
+.index_news > ul > li > p{
+    float: left;
+    height: 0.86rem;
+    line-height: 0.86rem;
+    font-size: 0.6rem;
+}
+.index_news > ul > li > a{
+    float: left;
+    font-size: 0.26rem;
+    height: 0.86rem;
+    line-height: 0.86rem;
+    text-indent: 0.2rem;
+}
+
+
+/* 解决方案 */
+.banner{
+    width: 100%;
+    height: auto;
+}
+.lanmu_tit{
+    width: 7.5rem;
+    height: 1.3rem;
+    background: url(../images/line1.jpg) center repeat-x;
+}
+.lanmu_tit h2{
+    width: 2.28rem;
+    height: 1.08rem;
+    background: #fff;
+    margin:0 auto;
+    font-size: 0.32rem;
+    color: #e63e00;
+    text-align: center;
+    font-weight: 700;
+    line-height: 0.4rem;
+    padding-top: 0.22rem;
+}
+.lanmu_tit h2 p{
+    font-size: 0.24rem;
+    color: #888;
+    font-weight: 500;
+}
+
+.lanmu_list{
+
+}
+.lanmu_list ul{
+    text-align: center;
+}
+.lanmu_list ul li{
+    display: inline-block;
+    width: 1.78rem;
+    height: 0.78rem;
+    background: #f3f3f3;
+    margin-left: 0.33rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+.lanmu_list ul li a{
+    width: 100%;
+    height: 0.78rem;
+    text-align: center;
+    font-size: 0.28rem;
+    line-height: 0.78rem;
+
+}
+.lanmu_list ul .on{
+    background: #e63e00;
+
+}
+.lanmu_list ul .on a{
+    color: #fff;
+}
+
+.jjfa_list{
+    margin-top: .45rem;
+    
+}
+.jjfa_list li{
+    width: 3.37rem;
+    height: 3rem;
+    float: left;
+    margin-bottom: 0.45rem;
+
+}
+.jjfa_list li:nth-child(2n){
+    float: right;
+}
+.jjfa_list li a{
+    width: 100%;
+    height: 100%;
+}
+.jjfa_list li a img{
+    width: 3.37rem;
+    height: 2.26rem;
+
+}
+.jjfa_list li a h3{
+    width: 100%;
+    height: 0.7rem;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.26rem;
+}
+
+.list_page{
+    width: 100%;
+    height: 0.46rem;
+    margin-top: 0.3rem;
+    clear:both;
+    margin-bottom: 0.5rem;
+}
+.list_page ul{
+    text-align: center;
+}
+.list_page ul li{
+    display: inline-block;
+    border:1px solid #ddd;
+}
+.list_page ul li a{
+    height: 0.46rem;
+    line-height: 0.46rem;
+    font-size: 0.26rem;
+    padding: 0 0.17rem;
+}
+
+.center_con{
+    margin-bottom: 0.3rem;
+}
+.center_con > h1{
+    width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    font-size: 0.28rem;
+}
+.center_con_div{
+    width: 100%;
+    height:auto;
+}
+.center_con_div > img{
+    width: 5.74rem;
+    height: 3.85rem;
+    display: block;
+    margin:0.2rem auto 0;
+}
+.center_con_div > p{
+    width: 100%;
+    height: auto;
+    text-indent: 2em;
+    font-size: 0.26rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.center_page{
+    width: 100%;
+    height: auto;
+    margin-top: 0.3rem;
+}
+.center_page span{
+    display: block;
+    font-size: 0.28rem;
+    color: #e63e00;
+}
+.center_page a{
+    font-size: 0.28rem;
+    display: inline-block;
+    margin-bottom: 0.2rem;
+}
+
+.news_list{
+    width: 100%;
+    height: auto;
+}
+.news_list ul{
+    
+}
+.news_list ul li{
+    width: 100%;
+    height: 1.7rem;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 0.3rem;
+}
+.news_list ul li a img{
+    width: 2.1rem;
+    height: 1.4rem;
+    display: block;
+    float: left;
+}
+.news_list ul li a h3{
+    width:4.65rem;
+    height: 0.39rem;
+    float: right;
+    font-size: 0.26rem;
+    line-height: 0.26rem;
+}
+.news_list ul li a p{
+    width:4.65rem;
+    height: 0.79rem;
+    font-size: 0.24rem;
+    float: right;
+    color: #888;
+    line-height: 0.38rem;
+}
+.news_list ul li a span{
+    width: 1.32rem;
+    float: right;
+    color: #888;
+    font-size: 0.22rem;
+    text-align: right;
+}
+
+.center_xinxi{
+    width:100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-align: center;
+}
+.center_xinxi span{
+    font-size: 0.24rem;
+    color: #888;
+    margin-right: 0.1rem;
+}
+.center_xinxi span:last-child{
+    margin-right: 0;
+}
+
+.about_con{
+    margin: 0.5rem auto;
+}
+.about_con p{
+    margin-top: 50px;
+    line-height: 50px;
+    text-indent: 2em;
+    font-size: 0.26rem;
+}
+.about_con li{
+    width:100%;
+    height: auto;
+    padding-top: 0.5rem;
+    clear:both;
+}
+.about_con li h6{
+    font-size: 0.36rem;
+    width:0.92rem;
+    float: left;
+    line-height: 0.36rem;
+    color: #e63e00;
+}
+.about_con li span{
+    display: block;
+    width: 6.09rem;
+    float: right;
+    font-size: 0.26rem;
+    line-height: 0.4rem;
+}
+.about_con li:last-child{
+    height: 2rem;
+}
+
+.contact{
+    margin-bottom: 0.4rem;
+}
+.contact .add{
+    width: 100%;
+    height: auto;
+    padding-top: 0.4rem;
+}
+.contact .add h2{
+    height: 0.6rem;
+    font-size: 0.3rem;
+    font-weight: 600;
+}
+.contact .add p{
+    height: 0.5rem;
+    font-size: 0.26rem;
+
+}
